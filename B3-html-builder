@@ -97,7 +97,7 @@ def main(output=None):
             return self
 
 
-    with HTML(output="test.html") as doc:
+    with HTML(output=None) as doc:
         with TopLevelTag("head") as head:
             with Tag("title") as title:
                 title.text = "HELLO"
