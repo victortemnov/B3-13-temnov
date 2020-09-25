@@ -121,7 +121,9 @@ def main(output=None):
 
             doc += body
 
-# for output in file, change value of output in 1 and 100 strings.
-            
+
+# Note: for output in file, change value of output in 1 and 100 strings.
+
+
 if __name__ == "__main__":
     main()
